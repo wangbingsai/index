@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+}
+.warp{
+	position: relative;
+	/*相对定位*/
+	width: 500px;
+	height: 500px;
+	background-color:red;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*
+margin 方法
+.warp div{
+	width: 70px;
+	height: 70px;
+	background-color: #008000;
+	margin: 215px auto;
+}
+*/
+/*定位*/
+.warp div{
+	width: 70px;
+	height: 70px;
+	position: absolute;	/*绝对定位*/
+	/* top:0; */
+	/* left:0; */
+	/* right: 0; */
+	/* bottom: 0; */
+	/* margin: auto; */
+	background-color: #008000;
+}
+.warp div:hover{
+	background-color: #0000FF;
+}
